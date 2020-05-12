@@ -74,7 +74,7 @@ def set_cpf(bot, update):
     CPF = update.message.text
     bot.send_message(
         chat_id = update.message.chat_id,
-        text = 'CPF encontrando! Agora você tem os seguintes comandos: \n/ver_dieta : Ler a sua dieta.\n/ver_treino : Ler o seu treino.\n/ver_meta : Conferir a sua meta semanal.\n/enviar_resultados CLASSIFICAÇÃO : Para enviar resultados em relação a sua meta.\n/conferir_classificacao : Para ver a sua classificação.\n/prevencao_covid Para obter informações para se prevnir do COVID-19.\nDigite /ajuda, para mais informações'
+        text = 'CPF encontrado! Agora você tem os seguintes comandos: \n/ver_dieta : Ler a sua dieta.\n/ver_treino : Ler o seu treino.\n/ver_meta : Conferir a sua meta semanal.\n/enviar_resultados CLASSIFICAÇÃO : Para enviar resultados em relação a sua meta.\n/conferir_classificacao : Para ver a sua classificação.\n/prevencao_covid Para obter informações para se prevnir do COVID-19.\nDigite /ajuda, para mais informações'
     )
 def main():
     updater = Updater(token=TELEGRAM_TOKEN)
